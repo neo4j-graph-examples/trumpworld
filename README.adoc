@@ -15,8 +15,9 @@
 :model:
 :model-guide:
 :todo: Update the guides so that they have the appropriate links between each other. Find the icon, update tags and provide author
+image::{logo}[]
 
-= {name} Graph Example
+= {long_name} Graph Example
 
 Description: {description}
 
@@ -26,6 +27,7 @@ TODO: {todo}
 
 This is for version: {target-db-version}
 
-unrendered guide:{guide}
+unrendered guide: {guide}
+
 rendered guide available from: {rendered-guide}
 
