@@ -1,0 +1,31 @@
+:name: trumpworld
+:long_name: Trumpworld
+:description: Explore connections in and around the Trump Administration using this dataset from BuzzFeed.
+:icon: 
+:logo: resources/trumpworld-icon-purple.png
+:tags:
+:author: 
+:use-load-script: false
+:use-dump-file: false
+:use-plugin: false
+:target-db-version: any
+:bloom-perspective: false
+:guide: documentation/intro.adoc
+:rendered-guide: https://guides.neo4j.com/sandbox/trumpworld/index.html
+:model:
+:model-guide:
+:todo: Update the guides so that they have the appropriate links between each other. Find the icon, update tags and provide author
+
+= {name} Graph Example
+
+Description: {description}
+
+TODO: {todo}
+
+=== Setup
+
+This is for version: {target-db-version}
+
+unrendered guide:{guide}
+rendered guide available from: {rendered-guide}
+
