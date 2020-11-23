@@ -24,12 +24,14 @@
 :expected-result:
 
 :model-guide:
-:todo: 
+:todo: Fix data import and browser guide queries!
 image::{logo}[width=100]
 
 == {long-name} Graph Example
 
 Description: _{description}_
+
+TODO: {todo}
 
 .Model
 image::{model}[]
