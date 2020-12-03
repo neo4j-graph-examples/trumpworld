@@ -1,14 +1,14 @@
 {
     "name": "trumpworld",
     "description":"xplore connections in and around the Trump Administration using this dataset from BuzzFeed",
-    "scriptFile":"scripts/import.cypher",
-    "install": [
+    "dbms": [
       {
           "dumpFile": "data/trumpworld-35.dump",
           "targetNeo4jVersion":"3.5"
       },
       {
           "dumpFile": "data/trumpworld-40.dump",
+          "scriptFile":"scripts/trumpworld.cypher",
           "targetNeo4jVersion": "^4.0"
       }
   ]
